@@ -1,0 +1,12 @@
+# 确认与加用户代码
+user = []
+while True:
+    question = input('Do you want to add user? (Y/N) :')
+    if question == 'Y':
+        add = str(input('Username:'))
+        user.append (add)
+        print(f'{user}')
+    elif question == 'N':
+        break
+    else:
+        break
