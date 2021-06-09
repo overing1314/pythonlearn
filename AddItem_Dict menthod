@@ -1,0 +1,15 @@
+#%% Methods for dictionary
+d = {}
+
+while True:
+    question = str(input('Do you want to add new items?(Y/N) :'))
+    if question =='Y':
+        a = str(input('Fruits:'))
+        p = float(input('Price:'))
+        d[a] = p
+        print(d)
+
+    elif question == 'N' :
+        break
+    else:
+        break
